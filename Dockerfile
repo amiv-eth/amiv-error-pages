@@ -13,9 +13,7 @@ USER server
 WORKDIR /public
 
 # Copy files from first stage
-COPY /index.html /public/
-# Serve index.html for every file which is not found on the server
-RUN ln index.html 404.html
+COPY /*.html /public/
 
 # Run server (-g will automatically serve the gzipped files if possible)
 CMD ["/usr/local/bin/http-server", "-g", "/public"]
