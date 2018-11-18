@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Service temporarily unavailable - AMIV an der ETH</title>
+    <!--#include file="partials/styles.shtml"-->
+  </head>
+  <body>
+    <div>
+      <!--#include file="partials/logo.shtml"-->
+      <h1>Sorry, we're down for maintenance</h1>
+      <p>We'll be back shortly</p>
+      <p>Error-Code: 503</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Forbidden - AMIV an der ETH</title>
+    <!--#include file="partials/styles.shtml"-->
+  </head>
+  <body>
+    <div>
+      <!--#include file="partials/logo.shtml"-->
+      <h1>You Shall Not Pass!</h1>
+      <p>Error-Code: 403</p>
+    </div>
+  </body>
+</html>

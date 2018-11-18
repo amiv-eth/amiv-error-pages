@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Internal Server Error - AMIV an der ETH</title>
+    <!--#include file="partials/styles.shtml"-->
+  </head>
+  <body>
+    <div>
+      <!--#include file="partials/logo.shtml"-->
+      <h1>There seems to be a problem</h1>
+      <p>That's all we know.</p>
+      <p>Error-Code: 500</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Resource not found - AMIV an der ETH</title>
+    <!--#include file="partials/styles.shtml"-->
+  </head>
+  <body>
+    <div>
+      <!--#include file="partials/logo.shtml"-->
+      <h1>Resource not found</h1>
+      <p>Error-Code: 404</p>
+    </div>
+  </body>
+</html>
