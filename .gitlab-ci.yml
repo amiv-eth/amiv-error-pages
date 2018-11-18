@@ -26,20 +26,11 @@ build:
   except:
     - master
 
-deploy_error_pages:
+deploy:
   stage: deploy
   image: amiveth/service-update-helper
   script:
     - export CI_DEPLOY_SERVICE=$CI_DEPLOY_SERVICE_ERROR_PAGES
-    - /update.py
-  only:
-    - master
-
-deploy_maintenance_page:
-  stage: deploy
-  image: amiveth/service-update-helper
-  script:
-    - export CI_DEPLOY_SERVICE=$CI_DEPLOY_SERVICE_MAINTENANCE_PAGE
     - /update.py
   only:
     - master
